@@ -1,3 +1,18 @@
+'''
+-------------------Now that GitHub is working, you can learn the most important Git commands----------------
+
+Command	Purpose
+git status     	Check what changed
+git add .	    Stage changes
+git commit -m   "message"	Save a version
+git push	    Upload changes to GitHub
+git pull	    Download the latest changes
+git log	        View commit history
+                     ---------------------These six commands cover most day-to-day Git usage.
+'''
+
+
+
 # def cal_sum_of_n(n):
 #     if(n==0):
 #         return 0
@@ -11,13 +26,6 @@
 #     print(List[idx])
 
 # print(List,5)
-
-
-
-
-
-
-
 
 # dictt ={
 #     "name" : "amit",
