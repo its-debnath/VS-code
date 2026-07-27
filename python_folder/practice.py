@@ -169,4 +169,3 @@ for i in seq :
 # n = int(input("enter ur number: "))
 # f = factorial(n)
 # print(f)
-

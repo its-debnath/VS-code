@@ -19,4 +19,3 @@ git commit -m "Added Git command notes"
 git push
 
 '''
-print("print")
