@@ -11,7 +11,8 @@ git log	        View commit history
                      ---------------------These six commands cover most day-to-day Git usage.
 
 
-#After Edit a file and need to upload on github , this one by one in vs terminal
+
+----------------After Edit a file and need to upload on github , this one by one in vs terminal----------------
 
 git status
 git add .
