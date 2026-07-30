@@ -125,9 +125,9 @@
 # list = [1, 2, 3, 4, 5]
 # k = 2 
 # L = len(list)
-# print(list[-k: ] + list[0:L-k])
-n = 864
-print(str(n)[::-1])
+# # print(list[-k: ] + list[0:L-k])
+# n = 864
+# print(str(n)[::-1])
 
 
 
@@ -158,3 +158,17 @@ print(str(n)[::-1])
 #     }
 
 # }
+
+# name = input()
+# print("welcome: ",name)
+# sername = input()
+# print("Welcome: ", name+" " + sername)
+# print("number of letter in ur name is : " , len(name+sername))
+
+n = int(input(  ))
+if(n>0):
+    print("Positive")
+elif(n<0):
+    print("Negative")
+else:
+    print("ZERO/Invalid input")

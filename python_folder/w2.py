@@ -69,5 +69,7 @@
 #     print(" C is greatest")
 
 
-a = [1,2,3,4]
-print(a)
+name = ["amit","ankit"]
+parts = name.split()
+
+print(parts)
