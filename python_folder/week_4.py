@@ -66,7 +66,52 @@ add the name "Admin" to the collection safely without risking duplication errors
 and print the sorted results.'''
 
 hcv = ["amit","jbj","ikgbj","amit","jbj","ikgbj","amit","jbj","ikgbj"]
-v = set(hcv)
-v.add("admit")
-x = sorted(v)
-print(x)
+# v = set(hcv)
+# v.add("admit")
+# x = sorted(v)
+# print(x)
+
+'''Given two separate --- structures containing student roll numbers 
+enrolled in  Course A  and Course B,  write a program to discover which 
+students are registered in either Course A or Course B, but not in both.'''
+
+''' Write a single-line list comprehension that reviews a list of scores.
+Transform the scores into a new list containing the string "Pass" if the
+score is 50 or above, and "Fail" otherwise.'''
+
+'''  Define a function named calculate_bill that takes a mandatory price
+parameter and an optional tax_rate parameter. If tax_rate isn't provided,
+it should default to 18% ($0.18$). Return the final computed total price.
+'''
+
+# a = "abc"
+# for i in a :
+# #     print(i)
+# x = hcv[1]
+# n = str(2)
+# y = f"{x}({n})"
+# print(y)
+
+# dict = {
+#     "name" : "Gouranga",
+#     "Roll" : "24f2100332",
+#      "course" : ["DSD","Python","SNS"]
+# }
+# print(len(dict.keys()))
+
+def filter_students(data: dict, criteria: str) -> set:
+
+    
+    return data
+data = {
+    "Alice": [90, 80, 85],
+    "Bob": [40, 50, 60],
+    "Charlie": [30, 40, 20], 
+    "Ram": [78, 92, 85, 79, 81],
+    "Babu": [67, 70, 75],
+    "Kumar": [ 100, 100, 100, 100, 100, 100, 40]
+}
+print(filter_students(data, 'excellent')) # Output: {'Alice', 'Kumar'}
+print(filter_students(data, 'good')) # Output: {'Babu', 'Bob', 'Ram'}
+print(filter_students(data, 'all_pass')) # Output: {'Alice', 'Babu', 'Ram'}
+print(filter_students(data, 'balanced'))

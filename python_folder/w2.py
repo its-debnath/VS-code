@@ -69,7 +69,37 @@
 #     print(" C is greatest")
 
 
-name = ["amit","ankit"]
-parts = name.split()
+# name = ["amit","ankit"]
+# parts = name.split()
 
-print(parts)
+# print(parts)
+
+
+
+n = int(input())
+names = []
+
+for _ in range(n):
+    parts = input().split()
+    last = parts[-1]
+    initials = ""
+
+    for p in parts[:-1]:
+        initials += p[0] + ". "
+
+    names.append(initials + last)
+
+names.sort()
+
+for name in names:
+    print(name)
+
+
+# n=int(input())
+# a=[]
+# for _ in range(n):
+#     s=input().split()
+
+#     a.append(" ".join([x[0]+"." for x in s[:-1]]+[s[-1]]))
+
+# print(*sorted(a),sep="\n")

@@ -120,11 +120,6 @@
 #         break
 # else : print(" Invalid ")
         
-print(range(5))
-seq = range(10)
-
-for i in seq :
-    print(seq[i])
 
 
 
@@ -169,3 +164,7 @@ for i in seq :
 # n = int(input("enter ur number: "))
 # f = factorial(n)
 # print(f)
+
+
+n = 3**2
+print(pow(2,3))
